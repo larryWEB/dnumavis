@@ -27,12 +27,20 @@ background-color: rgba(128, 128, 128, 0.099);
 	 z-index: 99999;
 }
 
-.home-social i,a{
+.home-social i{
 	font-size:28px;
 	color:white;
 }
 
+.home-social a{
+	font-size:28px;
+	color:white;
+}
 
+a{
+	color:white;
+	text-decoration: none;	
+}
 
 .chat{
   position:fixed;
@@ -638,7 +646,7 @@ font-size:25px;
 	border-image:linear-gradient(to right,yellow,white,yellow)1; 
    }
    
-    .faq-answer{
+   .faq-answer{
 	max-height:0;
 	overflow:hidden;
 	transition: max-height 0.2s ease-out;
